@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+</head>
+<body>
+    <!-- headr -->
+    <section id="header">
+        <div class="header container">
+            <div class="nav-bar">
+                <div class="brand">
+                    <a href="#hero"><h1>Selehadin</h1></a>
+                </div>
+                <div class="nav-list">
+                    <div class="hamburger"><div class="bar"></div></div>
+                    <ul>
+                        <li><a href="#hero" data-after="Home">Home</a></li>
+                        <li><a href="#services" data-after="service">Services</a></li>
+                        <li><a href="#projects" data-after="Projects">Projects</a></li>
+                        <li><a href="#about" data-after="About">About</a></li>
+                        <li><a href="#contact" data-after="Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of header -->
+    <section id="hero">
+        <div class="hero container">
+            <div>
+                <h1>Hello, <span></span></h1>
+                <h1>My name is <span></span></h1>
+                <h1>Selehadin <span></span></h1>
+                <a href="#projects" type="button" class="cta">portfolio</a>
+            </div>
+        </div>       
+    </section>
+    <!-- service section -->
+    <section id="services">
+        <div class="services container">
+            <div class="service-top">
+                <h1 class="section-title">Services</h1>
+                <p>i give a lot of different service based on my difersified back ground in difeerent companies that focueses in engineering </p>
+            </div>
+            <div class="service-bottom">
+                <div class="service-item">
+                    <div class="icon"><img src="data:image/png;base64,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">
+                    </div>
+                    <h2>Electrical Supervisor</h2>
+                    <p>i give electrical supersion for electrical systems in prepering electrical desghen, elctrical power ratinges, checklists for  comercial or nominal buldings</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon"><img src="data:image/png;base64,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">
+                    </div>
+                    <h2>Electrical Supervisor</h2>
+                    <p>i give electrical supersion for electrical systems in prepering electrical desghen, elctrical power ratinges, checklists for  comercial or nominal buldings</p>
+                </div>
+                <div class="service-item">
+                    <div class="icon"><img src="data:image/png;base64,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">
+                    </div>
+                    <h2>Electrical Supervisor</h2>
+                    <p>i give electrical supersion for electrical systems in prepering electrical desghen, elctrical power ratinges, checklists for  comercial or nominal buldings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of service section -->
+
+    <!-- project section -->
+    <section id="projects">
+        <div class="projects container">
+            <div class="projects-header">
+                <h1 class="section-title">Recent Projects</h1>
+            </div>
+            <div class="all-projects">
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 1</h1>
+                        <h2>Electrical Design</h2>
+                        <p>when i was working at 'Addis Ababa Construction Design Agency' i used to work as an Elctrical supervisor, i design an electrical installation for 18 floor apartment house.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/images (2).jpg">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 2</h1>
+                        <h2>Electrical Design</h2>
+                        <p>when i was working at 'Addis Ababa Construction Design Agency' i used to work as an Elctrical supervisor, i design an electrical installation for 18 floor apartment house.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/images (2).jpg">
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-info">
+                        <h1>Project 3</h1>
+                        <h2>Electrical Design</h2>
+                        <p>when i was working at 'Addis Ababa Construction Design Agency' i used to work as an Elctrical supervisor, i design an electrical installation for 18 floor apartment house.</p>
+                    </div>
+                    <div class="project-img">
+                        <img src="./img/images (2).jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of projrcts section -->
+    <!-- About Me section -->
+    <section id="about">
+        <div class="about container">
+            <div class="col-left">
+                <div class="about-img">
+                    <img src="./img/photo_2023-08-12_10-47-44.jpg">
+                </div>
+            </div>
+            <div class="col-right">
+                <h1 class="section-title">About Me</h1>
+                <h2>Electrical And Computer Engineering | Full Stack Developer</h2>
+                <p>My name is selehadin seid i am an Electrical and Computer Engineer, i work as an Electrical Supervisor at 'Addis Ababa Construction and Design agency' in managing sub contructers in the company. i have alot of interest and potenial for software engineering as ahol;in my time of universty i have done alot of tasks ingarding to programing a software for example me and my partner had lead a time of 5 to creat an arduino based matchine to craet a watching machine for a house hold using 'micro c' and 'MATlab'.i am curently learning Software Engineering at 'ALx' and doing hard things!.</p>
+                <a href="#" class="cta">Download Resume </a>
+            </div>
+        </div>
+    </section>
+    <!-- end about me section -->
+    <!-- contact section -->
+    <section id="contact">
+        <div class="contact container">
+            <div><h1 class="section-title">Contact</h1></div>
+            <div class="contact_items"></div>
+                <div class="contact-item">
+                    <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB4klEQVR4nO2Yz0tUURTHv7ZSCl27zVWtWghChrYKhFq1atPGnYIitEg3r4XOOU8RKt4540DQwj8g6K9QtDYurI2QUhqEoKLir0bm6UTz3ryaCca5J+4H7vLB98M7995zLuDxeDyehiH0CEqbUC5mLuEvkNwDOInSxh/D/1r0FU6itYS/XE6iXqDJKJ9ZL6EftgWEV20LKL+3LvDctkB+qrem8MLjcJIguAbl9ezg9BMRjcFplDkj/CmEB+E8hekuKJ8kwh8jyj2BGZTnEzX/EaYQvpX+C2E/TKH8MtFCryEKbsAMr4J2CH9LSLyBKZQH4qOzckOPwhTKr1PHqYYPYYa3QSuElhKldIA83YcZCpOdqXlZaBdRrgdmiKbvQHkncUPvIKI+mEH4LpT3EpfcfrzZ/4bSxG/fHEF5u8paRsT3GiwR9qck4kuPhrPD80jtDwa0hoYzF3ZD6HuVhm8Os7NtlcI8mDqK1YVZ46Lp+1xF4lM8V5QoNYDxsVtHeL3KYanAHVB6l1EKH+Iutt7wetXTXrHYAuFnED78p7DabIEy+anbEFq0K1AeSYWeQnjLpkBFJ0sv6nooU5cEyszMXIeEQ1BeqDm88BacROnmpcw8hFeq3yOl0qPHzY7q8Xg8/zHnbA4nmmjKQ3kAAAAASUVORK5CYII="></div>
+                    <div class="contact-info">
+                        <h1>Phone</h1>
+                        <h2>+251980490167</h2>
+                        <h2>+251914717154</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACtUlEQVR4nO1Y2WsTQRzefyBnI2qaTWZQ6J+SpK221SIqlBbxxScRRCj1PihVq03b3ffGpLZNtSUVvBCffBFEEG+lire1SZMs+lZ+MrNHjUnYTbKbzcN88D3tHN83v2OW4TgGBgYGBgaGJsM24Q+PBGkeCVIBixLYSSRrWEBivs2weCxIGbuF41JmiTZdA6HRlXQTiIVyDI2uLOoacHWn1rcefWq7WPwf/YPPwdWTWtc14AhPAaFv4D6gWNZ24Wh8DXwHH1JNhLoG/Mdfg7Nzmg529aQgcP6jbeL5C5/AvWueanF2JME/+ELfAM21yz/Bu29JnhiJw+bDjwELhcaJFyQgaeyMXqMaPHvTELz4nX4zZICGTihQ4Y5wXFlkiRqzWnzoyip4++7IKROZgk2HHgGazGvfDRtQ2XpmGVxdc3I0OqfBP/TKMvGtJ9+Cc8d1OX13zkDg1LuSMVUboKcyloGW/rtaIZGiwhNrpglHEzl60uTEyfrevtsQuvqr7NiaDGh5eewZOKMJuom79ybww1/qFh8c+QaePYtyhKMJ2HLkCWCxcr3VbkAhP/IVPL3Khu0JWmzEXK293dGelA9k9w3ghz/rzqnbAA35pBJyJaVa+u8BGssYT5lYFnwHHhSlJBrPGZprigHtBE+82Si6rhkInH6vOydwdhncalPoSIJ/6GVVUTPVgHZn7L9Vse2VtOWI2pbTELr0o+q0M90AZRlxwX/EyRejYjIcr2gS22ZATY9zH8DdnSq6MwjVXxPyjYypZw/OSgPlClQr9IHqCh3bZaC4RSY2Wq1J63KNMqDeGYRmrsk10oAV5JgBkUUALE0h1ARvQbgCkSDljNTAgt1CcSUKhVn9CIj5NvKIZLtYsYSr22O/A5zh1zlRmkOilLdbOCIahMKsYfEMDAwMDAwMXOPwF4zMSWyG+wnZAAAAAElFTkSuQmCC"></div>
+                    <div class="contact-info">
+                        <h1>email</h1>
+                        <h2>selehadinseid1@gmail.com</h2>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEEklEQVR4nO1Zz28TRxgdVCQo4l4hoaaq4pmNC+VXD4gGJUe4UaAc+PEvUKmqEAcQBQTlBEQNEs7MxgVRECZ4ZpcQSFswiUk4xEkgISYUKdAkrgIJGMephFTCoNk2491NLG9g13aQn/RJ1s43+d6befPNOgaghBJKcA2knK0iiB4kkEUIog8wpBMi/v98EyP6o8gBxQQO+DysaJsFSYIYdxhx1ce+KTR3EET0MwJZ2yyIWwIjFg349U8LQj6A6DoC6ci7ks8EHcWIVueVfJ2PrieIvnp/8mxKxCsMta/zQp5UNJQRxJ66R57JnVB9DZ97fmBn8vzN7zv4ubVNjsmKXDGHTB9r9VQAQXSLveitPZ08nfiHP/4twYPL9Jzk6/06H2gaMuZEfohNz4F0k3erb2uVbPMtnhpMG2RE3N7fnVNAy94umZ8aTHO6KWLrTLTPEwH1ir7aTubJ7wlJ5pE2yOu/cLoDw3Le4+bEtBzVd3mF6wKMG9ZURNvWKkmM9SX5mTWNjs/Ar+uu8eTAuJyvfdtisxE74LoA8SpgLhI7GZcE2g7dsxAILtd5Z02cj/Ym+bPeFzxWEzeemXO6TvXL+R0n4vaOdMMLAX9ms8+lDX9YCAjyU2NTIQSbcxq3t2a1EYa033UBBLK0uchI15gkEFxxxUJArLxdwOj9pCXnfFWzHBuJjdktlHZdAIZ03CKg+7kk8MtKq/+FbewCxDNzzoX11zMCuqwCMKIp9wUg2mcu8teNvyWBho1WC5nPRzaf69ta5Jiwo+0uuO+6AIIYznYI22c4xEKEWHURHSfj0y652PGMyM6fH9gtFHBdQB1iW81Fru6MZtpo/OWs2ujZr67yFw9Tcr440OZxUct1AcGyyEKC2Et52VRofCj6VJJ4pA8Zl1Qu8mJef+iJnDfYMmI8M/s/tDT0MfACYmstrXBHlKeHMz5vO3g3p4Dovm6ZPz40wa/YVp9Adhp4BbWc+TGib8wF7xzpMcgk2p/xM6tz20h0rOHb/+1c+2Hr2RFRj+hy4CUwoo2Wogrjd4728AvVzY7PgMgVc4hifS7+tqfkDQFQ+5IgNumUrNPAiL4RL4wgHyCIhtwXwC6CfKFOCUMC6b8ukn+NfeEKkE9gSFXXBECq5pW8IWCZ9glGLOmC91MB5fISUAgQxL5zwT67QaEQAqGPCGLd724d1nugKjIfFBIqDFfaLzenbVOF4UpQDMCInZr9DtBaUCwIrNEX2b9y5iA/UOsPLQbFBPHPXtHPHQiYVJVwFShGYMROOFj946BYESyLLLR/9bRdWP2eveu7hTpFW5vFSpNF03VyASN2bAbr/ATmCmrKmxZgSDtNF1aPsBeYS8B+rVy854hfKQNQV8BcBIF0l4hC8yihhA8ZbwEoUfE77FbLJQAAAABJRU5ErkJggg=="></div>
+                    <div class="contact-info">
+                        <h1>Address</h1>
+                        <h2>Addis Ababa Ethiopia</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of contact section-->
+    <!-- footer section -->
+    <section id="footer">
+        <div class="footer container">
+            <div class="brand"><h1>#Doing Hard Things</h1></div>
+            <h2>Engineering is The Solution</h2>
+            <div class="social-icon">
+                <div class="social-item">
+                    <a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAByElEQVR4nO2ZP0/CQBjG22scXI2Tiauy+glc3MC4+iX8DA6G9IiDJsYBBhdNHJwcNRGIHY3xjoBCgkTEAUP8A63yt7ymBVQEIq2mvSb3JM/UN5fnd+97N1wFgYuLi4tpSTJdQTKJI5lqCFNwxDLVRExjkkyW/xRexAQ7FhoPt4hJ0P7OuxwedS2FSMAygDk2DIRHRhdkGrUOgInqdnDUs0wqNgAYCI6//G8AvkgazgsaaA0dlIIG8+G0twCUggbfFb/XvAWgNfQ+ALWuewtA8XoHfJG0CWF0IpZXYS584y0A5JIFDoA7OzFM43yf3b2G7YsSpEpVqDbb8FprmaO4dvoAk5sJtgEW9jLw+NaEUbosvsPMTopdgOxLHX5TLK+CxCrAuPIf5dgE0Ntgzv/S4S2sHucheqcOrdtPPrMJsK4U+2omQgk4yVUG6jJPNTYBpreTA+ssHmQH6sq1FnsA7R/fe57aSo5d63oH7K6FOADmHTDFRwjzQ0z5LYT4NWpRo24Otyx4+mkR07JlAON9noHgYFjE9MwygPFzwe3gqGsJX/ktA3S6QIJuhxcx2bAV/rMTIRIw3uedPRNENcbG9s5zcXFxCU7pA5Jwntel+S2tAAAAAElFTkSuQmCC"></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="data:image/png;base64,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"></a>
+                </div>
+                <div class="social-item">
+                    <a href="#"><img src="data:image/png;base64,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"></a>
+                </div>
+            </div>
+            <div>
+                <p>Copyright 2023 Selehadin. All rights reserved</p>
+            </div>
+        </div>
+    </section>
+    <!-- end of footer section-->
+    <script src="./app.js"></script>
+</body>
+</html>
